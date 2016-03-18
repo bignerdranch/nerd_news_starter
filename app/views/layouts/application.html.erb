@@ -14,6 +14,12 @@
       <h1> Nerd News</h1>
     </div>
 
+    <% flash.each do |severity, message| %>
+      <div class="alert alert-<%= severity %>">
+        <%= message %>
+      </div>
+    <% end %>
+
     <%= yield %>
   </div>
 
