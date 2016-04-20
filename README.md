@@ -20,7 +20,7 @@ To get started.
 - Setup the database
 
   ```
-  $ bin/rails db:setup
+  $ bin/rake db:setup
   ```
 
 - Start the app
